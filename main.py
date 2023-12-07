@@ -23,7 +23,7 @@ vid_format = 'best[ext=mp4,height<=1080]+best[ext=mp4,height<=480]/best[ext=mp4,
 worst_video_format = 'best[ext=mp4,height<=360]/bestvideo[ext=mp4,height<=360]+bestaudio[ext=m4a]/best'
 audio_format = 'bestaudio[ext=m4a]/bestaudio/best[ext=mp4,height<=480]/best[ext=mp4]/best'
 
-TG_MAX_FILE_SIZE = 1500
+TG_MAX_FILE_SIZE = 2000
 
 
 class DumbReader(typing.BinaryIO):
